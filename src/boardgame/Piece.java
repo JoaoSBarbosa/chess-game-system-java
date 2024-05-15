@@ -15,5 +15,11 @@ public class Piece {
         return board;
     }
 
-
+    @Override
+    public String toString() {
+        return "Piece{" +
+                "position=" + position +
+                ", board=" + board +
+                '}';
+    }
 }
